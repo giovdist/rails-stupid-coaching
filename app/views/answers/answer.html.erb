@@ -1,0 +1,13 @@
+<div class="position-relative me-1">
+  <div class="position-absolute top-0 start-0">
+    <h1><strong>Stupid Coaching</strong></h1>
+    <div>
+      <p class="alert alert-light" role="alert"><%= params[:question] %></p>
+    </div>
+    <div>
+      <p class="alert alert-warning" role="alert"><%= @answer %></p>
+    </div>
+    <div class="button">
+      <%= link_to "Ask a question" , ask_path %>
+    </div>
+</div>
